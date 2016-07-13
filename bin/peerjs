@@ -57,7 +57,7 @@ var path = require('path')
         description: 'custom path',
         default: '/'
       },
-      allow_discovery:  {
+      allow_discovery: {
         demand: true,
         description: 'allow discovery of peers'
       }
