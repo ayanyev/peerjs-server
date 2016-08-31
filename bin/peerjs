@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var path = require('path')
     , pkg = require('../package.json')
     , fs = require('fs')
@@ -48,8 +50,7 @@ var path = require('path')
         port: {
             demand: true,
             alias: 'p',
-            description: 'port',
-            default: 9000
+            description: 'port'
         },
         path: {
             demand: false,
