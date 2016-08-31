@@ -29,6 +29,6 @@
   },
   "scripts": {
     "test": "mocha test",
-    "start": "bin/peerjs --debug=5858 --port ${PORT:=90000}"
+    "start": "bin/peerjs --debug=5858 --port ${PORT:=9000}"
   }
 }
