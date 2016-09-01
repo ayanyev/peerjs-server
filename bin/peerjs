@@ -16,7 +16,7 @@ var path = require('path')
             default: true
         },
         timeout: {
-            demand: false,
+            demand: true,
             alias: 't',
             description: 'timeout (milliseconds)',
             default: 50000
