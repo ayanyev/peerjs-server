@@ -19,7 +19,7 @@ var path = require('path')
             demand: false,
             alias: 't',
             description: 'timeout (milliseconds)',
-            default: 5000
+            default: 50000
         },
         ip_limit: {
             demand: false,
@@ -50,7 +50,8 @@ var path = require('path')
         port: {
             demand: true,
             alias: 'p',
-            description: 'port'
+            description: 'port',
+            default: 9000
         },
         path: {
             demand: false,
