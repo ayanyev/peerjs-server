@@ -16,10 +16,10 @@ var path = require('path')
             default: true
         },
         timeout: {
-            demand: true,
+            demand: false,
             alias: 't',
             description: 'timeout (milliseconds)',
-            default: 50000
+            default: 0
         },
         ip_limit: {
             demand: false,
